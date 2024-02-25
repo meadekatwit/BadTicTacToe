@@ -1,18 +1,13 @@
-## Getting Started
+# Tic-Tac-Toe Brute Force Generator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This program generates a brute force implementation of Tic-Tac-Toe without using lists, loops, methods, or classes. The generated code explores all possible game states through only if statements.
 
-## Folder Structure
+## Usage
+1. Clone or download the repository.
+2. Run the `bruteforce.java` script to generate the Tic-Tac-Toe brute force program.
+3. The generated program will be saved as `game.java`.
+4. Execute `game.java` as desired.
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Warnings
+The output file, at least currently, is just shy of seven million lines of code. This currently isn't executable through traditional methods due to java byte limits, which I will attempt to address in the future.
