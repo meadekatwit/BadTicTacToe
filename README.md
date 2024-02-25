@@ -3,6 +3,7 @@
 ## Overview
 This program generates a brute force implementation of Tic-Tac-Toe without using lists, loops, methods, or classes. The generated code explores all possible game states through only if statements.
 Here is a screenshot of the end product. It is 200 megabytes and 6771046 lines of code.
+
 ![Example Code](outputExample.png)
 
 ## Usage
